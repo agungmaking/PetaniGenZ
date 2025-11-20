@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Produk - Petani Gen Z</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Georgia, serif;
+            background-image: url("Green\ City\ Background\,\ Fresh\ Background\,\ Background\ Material\,\ Hand\ Painted\ Background\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: #D8E8CB;
+        }
+
+        .header {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .header .title {
+            font-family: "Monotype Corsiva", cursive;
+            font-size: 65px;
+            color: #4a7c3a;
+            margin-bottom: 5px;
+        }
+
+        .header .subtitle {
+            font-style: italic;
+            color: #3b5f2f;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        
+        .product-grid {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+        }
+
+        
+        .product-card {
+            background-color: #e6e6e6;
+            border-radius: 10px;
+            padding: 12px;
+            text-align: center;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+            border: 1px solid #cfcfcf;
+        }
+
+        .product-card img {
+            width: 170px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        .count-box {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            font-size: 18px;
+        }
+
+        .count-box button {
+            width: 25px;
+            height: 25px;
+            border: none;
+            background-color: #ffffff;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 3px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .btn-beli {
+            margin-top: 12px;
+            display: block;
+            background-color: #2f7f36;
+            color: white;
+            padding: 8px 0;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .btn-beli:hover {
+            background-color: #256b2c;
+        }
+
+        
+        @media (max-width: 1000px) {
+            .product-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 750px) {
+            .product-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .title { font-size: 50px !important; }
+        }
+
+        @media (max-width: 500px) {
+            .product-grid {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="title">Petani Gen Z</div>
+        <div class="subtitle">By Agung Making</div>
+    </div>
+
+    <div class="product-grid">
+
+        
+        <div class="product-card">
+            <img src="Bayam Merah (Indonesia) Red Spinach Amaranthus Tricolor.jpeg" alt="Bayam Merah">
+            <div class="count-box">
+                <button>&lt;</button>
+                <span>1</span>
+                <button>&gt;</button>
+            </div>
+            <a href="detailproduk.html" class="btn-beli">Beli</a>
+        </div>
+
+        
+        <div class="product-card">
+            <img src="download (1).jpeg" alt="Sawi">
+            <div class="count-box">
+                <button>&lt;</button>
+                <span>1</span>
+                <button>&gt;</button>
+            </div>
+            <a href="detailproduk.html" class="btn-beli">Beli</a>
+        </div>
+
+        
+        <div class="product-card">
+            <img src="Ginger Rhizome And Sliced With Leaves, Nature, Seasoning, Cooking PNG Transparent Image and Clipart for Free Download.jpeg" alt="Kol">
+            <div class="count-box">
+                <button>&lt;</button>
+                <span>1</span>
+                <button>&gt;</button>
+            </div>
+            <a href="detailproduk.html" class="btn-beli">Beli</a>
+        </div>
+
+        
+        <div class="product-card">
+            <img src="download (2).jpeg" alt="Jahe">
+            <div class="count-box">
+                <button>&lt;</button>
+                <span>1</span>
+                <button>&gt;</button>
+            </div>
+            <a href="detailproduk.html" class="btn-beli">Beli</a>
+        </div>
+
+        
+        <div class="product-card">
+            <img src="Kangkung.jpeg" alt="Jeruk Nipis">
+            <div class="count-box">
+                <button>&lt;</button>
+                <span>1</span>
+                <button>&gt;</button>
+            </div>
+            <a href="detailproduk.html" class="btn-beli">Beli</a>
+        </div>
+
+        
+        <div class="product-card">
+            <img src="Lime - fruit study.jpeg" alt="Daun Kucai">
+            <div class="count-box">
+                <button>&lt;</button>
+                <span>1</span>
+                <button>&gt;</button>
+            </div>
+            <a href="detailproduk.html" class="btn-beli">Beli</a>
+        </div>
+
+        
+        <div class="product-card">
+            <img src="Lemongrass_.jpeg" alt="Bawang Putih">
+            <div class="count-box">
+                <button>&lt;</button>
+                <span>1</span>
+                <button>&gt;</button>
+            </div>
+            <a href="detailproduk.html" class="btn-beli">Beli</a>
+        </div>
+
+        
+        <div class="product-card">
+            <img src="Knoblauch richtig stecken_ Schritt-für-Schritt-Anleitung » 2025.jpeg" alt="Serai">
+            <div class="count-box">
+                <button>&lt;</button>
+                <span>1</span>
+                <button>&gt;</button>
+            </div>
+            <a href="detailproduk.html" class="btn-beli">Beli</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
